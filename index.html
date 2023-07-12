@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="images/Rose.png">
+    <title>Rose Hair | Salão de Beleza</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- boxIcons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    
+
+    <!-- swipper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav_container">
+
+        <i id="burger" class='bx bx-menu' onclick="burger()"></i>
+        <i id="quit" class='bx bx-x' onclick="quit()"></i>
+        
+        <ul id="links">
+          <li id="home-phone"><a href="index.html">Home</a></li>
+          <li><a href="#about">Agenda</a></li>
+          <li><a href="#testimonials">Depoimentos</a></li>
+          <li><a href="#faqs">Perguntas</a></li>
+        </ul>
+
+        <a href="index.html" class="nav_logo"><h3>Rose Hair</h3></a>
+
+        <div class="nav_contact">
+          <a href="https://api.whatsapp.com/send?phone=5513988590760" target="_blank"><i class='bx bxl-whatsapp'></i></i></a>
+        </div>
+
+      </div>
+    </nav>
+
+    <header>
+      <div class="container header_container">
+        <h1 class="header_title">
+          Venha ficar linda e <br />"Instagramável"<br />
+          conosco!
+        </h1>
+        <p class="lead">
+          Conheça nossas Terapias Capilares e tenha uma rotina de cuidados com hidratação, nutrição e reconstrução.<br><br>
+          Diversos procedimentos para lhe proporcionar um cabelo lindo e
+          saudável, não apenas para datas especiais mas também seu dia a dia.
+        </p>
+        <div class="header_image">
+          <img src="images/hero-bg.png" />
+        </div>
+
+        <div class="cta">
+          <a href="https://www.instagram.com/rosehair09/" target="_blank" class="btn btn-primary">
+            <div class="logo">
+              <img src="images/Insta.png" />
+            </div>
+            <span>
+              <small>Nos Siga...</small>
+              <h4>Rosehair09</h4>
+            </span>
+          </a>
+        </div>
+
+        <div class="header_social-midia">
+          <a href="https://www.tiktok.com/@danielasantanadia" target="_blank"><i class='bx bxl-tiktok'></i></a>
+          <a href="https://www.instagram.com/rosehair09/" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=5513988590760" target="_blank"><i class='bx bxl-whatsapp-square' ></i></a>
+        </div>
+      </div>
+
+      <div class="header_decorator-1">
+        <img src="images/header-decorator1.png" />
+      </div>
+      <div class="header_decorator-2">
+        <img src="images/header-decorator1.png" />
+      </div>
+    </header>
+
+    <section id="about">
+      <h1 class="about">Nossa Agenda</h1>
+      <div class="container">
+        <article class="about_article">
+          <div class="about_image">
+            <img src="images/Banner1.png" />
+          </div>
+          <div class="about_content">
+            <h2 class="about_article-title">
+              Entre em Contato e venha fazer seu Cronograma Capilar Conosco.
+            </h2>
+            <p>
+              Julho começou, mas nossa agenda já está pegando fogo, aproveite e
+              não deixe para depois, reserve já seu horário.
+            </p>
+            <a href="https://api.whatsapp.com/send?phone=5513988590760" target="_blank" id="banner1" class="btn btn-primary">Agende Agora</a>
+          </div>
+        </article>
+
+        <article class="about_article">
+          <div class="about_content">
+            <h2 class="about_article-title">
+              Primeira Visita você já chega ganhando!
+            </h2>
+            <p>
+              Venha fazer um procedimento e ganhe outro gratuito e aproveite para conhecer nosso salão, é isto mesmo que você ouviu, nossos pacotes lhe darão acesso a outro serviço gratuitamente!
+            </p>
+            <a href="https://api.whatsapp.com/send?phone=5513988590760" target="_blank" id="banner2" class="btn btn-primary">Saiba Mais</a>
+          </div>
+          <div class="about_image">
+            <img src="images/Banner2.png" />
+          </div>
+        </article>
+
+        <article class="about_article">
+          <div class="about_image">
+            <img src="images/Banner3.png" />
+          </div>
+          <div class="about_content">
+            <h2 class="about_article-title">
+              Métodos e produtos profissionais mais atualizados e inovadores do mercado atual.
+            </h2>
+            <p>
+              Transforme seu visual e realce sua beleza! Venha conhecer nosso incrível salão de cabeleireiro e descubra um mundo de possibilidades para seus cabelos. Estamos prontos para criar looks surpreendentes, cortes modernos, colorações vibrantes e tratamentos capilares de alta qualidade. Aumente sua autoestima e arrase com um novo visual. Agende seu horário agora mesmo e viva a experiência de um verdadeiro salão de transformação!
+            </p>
+            <a href="https://api.whatsapp.com/send?phone=5513988590760" target="_blank" id="banner1" class="btn btn-primary">Agende Agora</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container testimonials_container mySwiper">
+      <h1 id="testimonials">Veja alguns de nossos relatos...</h1>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/rosemeire.jpeg" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Rosemeire</h5>
+            <small>Dona de casa</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              "Não confio em outro lugar, me falaram da Argiloterapia e o modo de tratar meu cabelo mudou para melhor."
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/larissa.jpeg" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Larissa</h5>
+            <small>Comércio Exterior</small>
+          </div>
+          <div class="testimonial_body">
+            <p>"Já colori, fiz luzes, cortei, hidratei, enfim sempre saio com um ótimo trabalho feito"</p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/luciana.jpeg" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Luciana</h5>
+            <small>Vendedora</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              "...uma amiga me indicou a alguns anos, e desde então bato cartão
+              a cada 3 meses."
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/cinthia.jpeg" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Cinthia</h5>
+            <small>Estudante</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Sempre saio com a autoestima elevada e satisfeita com o resultado.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/mariangela.jpeg" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Mariangela</h5>
+            <small>Farmacêutica</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Sinceramente me sinto em casa, um ambiente muito gostoso e acolhedor para tratar as madeixas rs.
+            </p>
+          </div>
+        </article>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <section id="faqs">
+      <h1>Perguntas Frequentes</h1>
+      <div class="container faqs_container">
+        <article class="faq">
+          <span class="faq_icon"><i class="bx bxs-plus-square"></i></span>
+          <div class="faq_question-answer">
+            <h4 class="faq_question">Qual horário de funcionamento?</h4>
+            <p class="faq_answer">
+              De Segunda a Sábado. Fazemos nossa agenda de acordo com a necessidade do cliente, mesmo
+              com horários complexos nossa meta é poder lhe
+              atender.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <span class="faq_icon"><i class="bx bxs-plus-square"></i></span>
+          <div class="faq_question-answer">
+            <h4 class="faq_question">Posso solicitar determinadas marcas para uso?</h4>
+            <p class="faq_answer">
+              A experiência nos faz estar antenados nas melhores marcas e produtos, caso
+              você tenha alergia ou preferência por determinados produtos nos informe e tire 
+              sua dúvidas pelo whatsapp.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <span class="faq_icon"><i class="bx bxs-plus-square"></i></span>
+          <div class="faq_question-answer">
+            <h4 class="faq_question">Quais formas de Pagamento?</h4>
+            <p class="faq_answer">
+              Temos maquininha para parcelamentos no crédito, além de pagamentos no débito, pix ou dinheiro.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <span class="faq_icon"><i class="bx bxs-plus-square"></i></span>
+          <div class="faq_question-answer">
+            <h4 class="faq_question">O estabelecimento é pet-friendly?</h4>
+            <p class="faq_answer">
+              Sim, mas de momento apenas com animais de pequeno porte.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <span class="faq_icon"><i class="bx bxs-plus-square"></i></span>
+          <div class="faq_question-answer">
+            <h4 class="faq_question">O que é argiloterapia?</h4>
+            <p class="faq_answer">
+              A argila é um componente de origem mineral que possui diversos elementos que trazem benefícios para a pele e o couro cabeludo.
+              Argiloterapia é um tratamento capilar que pode ajudar a fortalecer os fios, acabar com a queda de cabelo e deixá-los brilhantes, sedosos e livre da oleosidade entre outros benefícios.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="subscribe">
+      <div class="container subscribe_container">
+        <div class="subscribe_text">
+          <h2>Inscreva-se</h2>
+          <form action="https://formspree.io/f/myyqygzd" method="post">
+          <p>Coloque seu nome e seu melhor Email para receber nossas Promoções.</p>
+        </div>
+        <input type="text" name="Full Name" placeholder="Digite seu Nome" required>
+        <input type="email" name="Email Adress" placeholder="Digite seu Email" required /><br>
+        <button type="submit"><i class="bx bx-right-arrow-alt" title="ENVIAR"></i></button>
+      </div>
+    </form>
+    </section>
+
+    <!-- rodapé -->
+    <footer class="footer">
+      <div class="container footer_container">
+        <div class="footer1">
+          <a href="index.html" class="footer_logo"><h4>Rose Hair</h4></a>
+          <p>
+            <i>
+              Amor entre mãe e filha que<br> nem uma perda separou!
+              <br><br>
+              ''Ser Mulher é ser linda aos seus próprios olhos, e mais forte que
+              os olhos dos outros podem ver!''</i
+            >
+          </p>
+        </div>
+
+        <div class="footer2">
+          <h4>Permalinks</h4>
+          <ul class="privacy">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">Agenda</a></li>
+            <li><a href="#testimonials">Depoimentos</a></li>
+            <li><a href="#faqs">Perguntas</a></li>
+          </ul>
+        </div>
+
+        <div class="footer3">
+          <h4>Política de Privacidade</h4>
+          <ul class="privacy">
+            <li><i class='bx bxs-megaphone'></i>"Este site <b>NÃO</b> utiliza cookies de nenhuma espécie para
+               rastreamento ou coleta de dados pessoais, 
+               respeitamos a privacidade de nossos usuários."</li>
+          </ul>
+        </div>
+
+        <div class="footer4">
+          <h4><i class='bx bxs-location-plus'></i> Endereço</h4>
+          <div>
+            <p>Rua Dois, 866 <br>
+              Vila Progresso <br>
+              Santos - SP</p>
+          </div>
+
+          <ul class="social_midia">
+            <li>
+              <a href="https://www.tiktok.com/@danielasantanadia" target="_blank"><i class='bx bxl-tiktok'></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/rosehair09/" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+            </li>
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=5513988590760" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_copyright">
+        Copyright &copy; | <a href="https://marcosds.tech" target="_blank">MarcosDS</a>
+
+        <div class="footer-iconTop">
+          <a href="index.html"><i class="bx bx-up-arrow-alt"></i> </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- swiper-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
