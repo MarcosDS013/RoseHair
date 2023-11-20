@@ -725,7 +725,7 @@ textarea.form-control.is-invalid {
   font-size: 22px;
   position: absolute;
   right: 0;
-  top: 10px;
+  top: 90px;
   padding: 0;
   line-height: 1;
   width: 33px;
@@ -739,7 +739,7 @@ textarea.form-control.is-invalid {
   transform: translateX(50%);
 }
 .vs-menu-wrapper .vs-menu-toggle:hover {
-  background-color: var(--title-color);
+  background-color: pink;
   color: var(--white-color);
 }
 .vs-menu-wrapper .vs-menu-area {
@@ -1085,7 +1085,7 @@ button.nav-link {
   --extra-shape: -6px;
   position: fixed;
   bottom: 300px;
-  right: 30px;
+  left: 70%;
   z-index: 94;
   opacity: 0;
   visibility: hidden;
@@ -1106,21 +1106,9 @@ button.nav-link {
   position: relative;
   transition: all ease 0.8s;
 }
-.scroll-btn:before {
-  content: "";
-  position: absolute;
-  left: var(--extra-shape);
-  top: var(--extra-shape);
-  right: var(--extra-shape);
-  bottom: var(--extra-shape);
-  background-color: #fff;
-  border-radius: inherit;
-  z-index: 1;
-}
 .scroll-btn:focus i,
 .scroll-btn:hover i {
-  background-color: var(--title-color);
-  color: var(--white-color);
+  background-color: pink;
 }
 .scroll-btn.show {
   bottom: 120px;
@@ -1140,7 +1128,7 @@ button.nav-link {
 }
 .scrollToTop {
   position: fixed;
-  right: 60px;
+  left: 70%;
   bottom: 500px;
   opacity: 0;
   visibility: hidden;
@@ -1186,7 +1174,7 @@ button.nav-link {
     font-size: 1.2em;
   }
   .scrollToTop {
-    right: 20px;
+    left: 70%;
   }
   .scrollToTop.show {
     bottom: 20px;
